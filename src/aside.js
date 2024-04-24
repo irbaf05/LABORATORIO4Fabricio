@@ -1,3 +1,9 @@
+const feather = require('feather-icons');
+
+setTimeout(()=>{
+    feather.replace();
+},1000);
+
 import React from 'react';
 const Aside = () => {
 return (
@@ -23,7 +29,7 @@ required /><br /><br />
 <label htmlFor="direccion">Dirección:</label><br />
 <textarea id="direccion" name="direccion" required></textarea><br /
 ><br />
-<button type="submit">Registrar usuario</button>
+<button type="submit">Registrar usuario<i data-feather="save"></i> </button> 
 </form>
 </aside>
 );
