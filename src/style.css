@@ -1,0 +1,25 @@
+:root {
+    --yellow: #F2DC5D; 
+    --black:  #000000; 
+  }
+  
+  body {
+    background-color: var(--yellow);
+    color: black; 
+  }
+  
+  .navbar {
+    background-color: var(--blue);
+    color: white;
+  }
+  
+  button {
+    background-color: var(#6B6D76);
+    color: black;
+    border:black;
+  }
+  
+  button:focus, button:active {
+    background-color: var(#6B6D76); 
+    outline: none; 
+  }
